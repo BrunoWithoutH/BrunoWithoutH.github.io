@@ -1,6 +1,9 @@
 # Sobre Mim
-Meu nome é Bruno Evaristo Pinheiro, sou de Vicente Dutra, uma pequena cidade do extremo-norte do Rio Grande do Sul.
-Atualmente estou fazendo um curso de Técnico em Informática integrado ao ensino médio no Instituto Federal Farroupilha, no campus de Frederico Westphalen, estou no segundo ano do curso.
-## Linguagens
+Olá, meu nome é Bruno Evaristo Pinheiro.
+Atualmente estou cursando Técnico em Informática integrado
+no Instituto Federal Farroupilha - Campus Frederico Westphalen, 
+estou no segundo ano do curso.
+## Habilidades Técnicas
 ![Python](https://img.shields.io/badge/python-white?style=for-the-badge&logo=python&logoColor=white&color=blue
-) ![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css&logoColor=white)
+) ![HTML5](https://img.shields.io/badge/html-white?style=for-the-badge&logo=html5&logoColor=white&color=%23E34F26
+) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![CSS](https://img.shields.io/badge/css3-white?style=for-the-badge&logo=css3&logoColor=white&color=%231572B6)
