@@ -8,4 +8,4 @@ estou no segundo ano do curso.
 # Minhas redes Sociais / My Socials
 [![Instagram](https://img.shields.io/badge/instagram-white?style=flat&logo=instagram&logoColor=white&color=%23E4405F)](https://instagram.com/brunowithouth) [![X](https://img.shields.io/badge/X-white?style=flat&logo=x&logoColor=white&color=black)](https://x.com/brunowithouth)
 ## Meu E-mail Para contato / Contact Email
-[![E-mail](https://img.shields.io/badge/pinheirobrunoevaristo%40gmail.com-white?style=for-the-badge&logo=gmail&logoColor=white&color=%23EA4335)]([pinheirobrunoevaristo@gmail.com](https://criarmeulink.com.br/u/1713660279))
+[![E-mail](https://img.shields.io/badge/pinheirobrunoevaristo%40gmail.com-white?style=flat&logo=gmail&logoColor=white&color=%23EA4335)](mailto:pinheirobrunoevaristo@gmail.com)
