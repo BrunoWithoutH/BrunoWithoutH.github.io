@@ -44,6 +44,27 @@ body {
     margin-bottom: 20px;
 }
 
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
 .divider-contato {
     border-left: 2px solid #1D1931;
     position: relative;
@@ -93,8 +114,9 @@ button {
     margin-bottom: 20px;
 }
 
-.email {
-    margin-top: 70px;
+.inf {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .form_quad {
@@ -211,7 +233,7 @@ button {
 
     }
 
-    .email {
+    .inf {
         margin-top: 10px;
     }
 }
