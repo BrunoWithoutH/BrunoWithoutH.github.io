@@ -1,7 +1,9 @@
 body {
     background-color: #13131f;
-    font-family:arial,helvetica,courier;
+    font-family:arial, helvetica, monospace, courier;
 }
+
+* { margin: 0; padding: 0; }
 
 .logo_pin{
     height: 65px;
@@ -44,13 +46,16 @@ body {
     margin-bottom: 20px;
 }
 
+
 .slider {
     display: block;
-    height: 293px;
-    width: 600px;
+    height: 262px;
+    width: 350px;
     margin: auto;
     margin-top: 20px;
     position: relative;
+    left: -18px;
+    text-align: center;
 }
 
 .slider li {
@@ -63,6 +68,68 @@ body {
     height: 100%;
     width: 100%;
     vertical-align: top;
+    border-radius: 10px; 
+    border: 2px solid #8157e5;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: rgb(70, 70, 70);
+    bottom: 30px;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    position: absolute;
+    width: 15px;
+    z-index: 10;
+    border-radius: 7px;
+}
+
+.slider li:nth-child(1) label {
+  margin-left: 120px;
+    left: 0px;
+}
+
+.slider li:nth-child(2) label {
+    left: 150px;
+}
+
+.slider li:nth-child(3) label {
+    left: 180px;
+}
+
+.slider img {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slider li input:checked + a img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.slider li input:checked ~ h6 {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+  font-size: 120%;
+}
+
+.slider h6 {
+  position: relative;
+  top: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity ease;
+  transition-duration: 1s;
+}
+
+.slider li input:checked ~ label {
+  background: radial-gradient(circle, white, rgb(70,70,70), rgb(70,70,70));
 }
 
 .divider-contato {
