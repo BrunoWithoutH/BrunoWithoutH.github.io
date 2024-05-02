@@ -17,7 +17,7 @@
             background-color: #13131f;
         }
 
-        h1, h2, h3, h4, h5, h6, p, label {
+        h1, h2, h3, h4, h5, h6, p, form label {
             color: #FDFCFE;
         }
         #cinza {
@@ -93,29 +93,21 @@
                 <div class="row bar"></div>
                 <h3 class="text-center">Projetos e trabalhos</h3>
                 <ul class="slider">
-                		<li>
-                				<input type="radio" id="slide1" name="slide" checked>
-                				<a href="https://bru.is-a.dev/trabalho-iffar-html">
-                						<img class="slideimg" src="img/iffar-html.jpg" />
-                				</a>
-                				<label for="slide1"></label>
-             				   <h6>Trabalho de Escola: HTML</h6>
-                		</li>
-                		<li>
-                				<input type="radio" id="slide2" name="slide">               				
-                				<a href="https://bru.is-a.dev/calculadora-html">
-                						<img class="slideimg" src="img/calculadora.jpg"/>            						
-                				</a>
-                				<label for="slide2"></label>
-                				<h6>Calculadora em HTML</h6>
-                		</li>
-                		<li>
-                    <input type="radio" id="slide3" name="slide">
-                				<a><img class="slideimg" src="img/vazio.png" /></a>
-                				<h6>Em Breve</h6>
-                    <label for="slide3"></label>
-                  </li>
-																</ul>
+                				<li>       												        												              						
+       											 																	<input type="radio" id="slide1" name="slide" checked>
+       																															<label for="slide1"></label>
+                										<img id="iffar" src="img/iffar-html.jpg"/>
+        																													<h6>Trabalho de Escola: HTML</h6>
+    																																		</li>
+    																																		<li>    																																				    																																			        																								            																			       																													       																										  																																				
+        																												<input type="radio" id="slide2" name="slide">
+        																												<label for="slide2"></label>
+    																																						<img id="calcul" src="img/calculadora.jpg"/>
+        																												<h6>Calculadora em HTML</h6>
+    																																		</li>
+																																						</ul>
+            </div>
+																												<div class="col-sm-12">
                 <div class="row bar"></div>
                 <h3 class="text-center" id="contato">Contato</h3>
                 <div class="form_quad text-center">
@@ -169,6 +161,14 @@
         function obrigado() {
             alert("Obrigado!, quando possível, retornarei sua mensagem :)");
         }
+																			document.getElementById("iffar").addEventListener("click", function() {
+        				window.location.href = "https://bru.is-a.dev/trabalho-iffar-html";
+    									});
+
+    								document.getElementById("calcul").addEventListener("click", function() {
+        				window.location.href = "https://bru.is-a.dev/calculadora-html";
+    								});
+
     </script>
 
 </body>
