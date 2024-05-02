@@ -97,11 +97,11 @@ body {
 }
 
 .slider li:nth-child(1) label {
-    left: 140px;
+    left: 160px;
 }
 
 .slider li:nth-child(2) label {
-    left: 160px;
+    left: 180px;
 }
 
 .slider li input:checked ~ img {
