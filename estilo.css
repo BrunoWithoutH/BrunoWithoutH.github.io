@@ -97,6 +97,7 @@ body {
 }
 
 .slider li:nth-child(1) label {
+    margin-left: auto;
     left: 160px;
 }
 
