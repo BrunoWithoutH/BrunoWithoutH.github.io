@@ -1,6 +1,11 @@
 body {
-    background-color: #13131f;
     font-family:arial, helvetica, monospace, courier;
+    h1, h2, h3, h4, h5, h6, p, form label {
+        color: #FDFCFE;
+    }
+    h6 a {
+		color: #8157e5;
+        }
 }
 
 * { margin: 0; padding: 0; }
@@ -16,6 +21,7 @@ body {
     height: 28px;
     width: 35px;
     opacity: 0;
+    visibility: hidden;
     position: relative; 
     left: 40px; 
     top: 45px;
@@ -216,11 +222,57 @@ button {
     
     width: 300px;
 }
+
 .footer {
     position: relative;
     margin-top: 80px;
     margin-bottom: 5px;
 }
+
+.notification {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #8157e5;
+    border-radius: 5px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-20%,0);
+    bottom: 30px;
+    font-size: 17px;
+}
+
+.notification.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
 @media (max-width: 576px) {
     .menu_bar {
         height: 75px;
