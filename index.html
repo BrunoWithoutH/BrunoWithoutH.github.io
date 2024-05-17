@@ -2,6 +2,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Bruno Evaristo Pinheiro">
+    <meta name="description" content="Site pessoal de Bruno Evaristo Pinheiro">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <link rel="chrome-android" sizes="512x512" href="favicons/chrome-touch-512x512.png">
@@ -16,16 +18,6 @@
         body {
             background-color: #13131f;
         }
-
-        h1, h2, h3, h4, h5, h6, p, form label {
-            color: #FDFCFE;
-        }
-        #cinza {
-            color: grey;
-        }
-																			h6 a {
-																												color: #8157e5;
-																			}
     </style>
 </head>
 <body>
@@ -42,10 +34,9 @@
             </div>
             <div class="col-sm-6 d-flex flex-column align-items-center justify-content-center order-sm-1">
                 <h1 class="text-center text-mobile-center">Olá, sou Bruno</h1>
-                <h5 class="text-center" id="cinza">&lt;Programador&gt;, Modelador 3D e Designer Gráfico</h5>
+                <h5 class="text-center" style="color: gray;">&lt;Programador&gt;, Modelador 3D e Designer Gráfico</h5>
                 <a href="#contato"><button type="button" id="botao_contato"><b>Entre em Contato</b></button></a>
-            </div>
-
+	    </div>
         </div>
         <div class="row bar"></div>
         <div class="row">
@@ -58,21 +49,14 @@
                     <div class="divider-horizontal"></div>
                     <h3 class="text-center">Habilidades Técnicas</h3>
                     <div class="text-center habili">
-                        
                         <img  style="position: relative; margin-top: 5px;" alt="Python" src="https://img.shields.io/badge/Python-white?style=for-the-badge&logo=python&logoColor=white&color=%233776AB">
-
                         <img  style="position: relative; margin-top: 5px;" alt="HTML" src="https://img.shields.io/badge/HTML-white?style=for-the-badge&logo=html5&logoColor=white&color=%23E34F26">
-                        <br>
-                        
+                        <br>     
                         <img  style="position: relative; margin-top: 5px;" alt="CSS" src="https://img.shields.io/badge/CSS-white?style=for-the-badge&logo=css3&logoColor=white&color=%231572B6">
-
                         <img style="position: relative; margin-top: 5px;" alt="C++" src="https://img.shields.io/badge/C%2B%2B-white?style=for-the-badge&logo=c%2B%2B&logoColor=white&color=%2300599C">
                         <br>
-                        
                         <img style="position: relative; margin-top: 5px;" alt="PHP" src="https://img.shields.io/badge/php-white?style=for-the-badge&logo=php&logoColor=white&color=%23777BB4">
-
                         <img  style="position: relative; margin-top: 5px;" alt="Blender" src="https://img.shields.io/badge/Blender-White?style=for-the-badge&logo=Blender&logoColor=%23fff&color=%23E87D0D">
-
                     </div>
                 </div>
             </div>
@@ -80,7 +64,6 @@
                 <div class="divider-vertical">
                     <div class="divider-horizontal"></div>
                     <h3 class="text-center">Minhas Redes Sociais</h3>
-                   
                     <center><div>
                         <a href="https://www.instagram.com/brunowithouth"><img style="position: relative; margin-top: 5px; width: 40%; height: 40%;" alt="instagram" src="https://img.shields.io/badge/brunowithouth-white?style=flat&logo=instagram&logoColor=white&color=%23E4405F"></a>
                         <br>
@@ -91,30 +74,28 @@
                 </div>
             </div>
         </div>
-
-
-
         <div class="row align-items-center">
             <div class="col-sm-12">
                 <div class="row bar"></div>
                 <h3 class="text-center">Projetos e trabalhos</h3>
                 <ul class="slider">
-                				<li>       												        												              						
-       											 																	<input type="radio" id="slide1" name="slide" checked>
-       																															<label for="slide1"></label>
-                										<img id="iffar" src="img/iffar-html.jpg"/>
-        																													<h6><a href="https://bru.is-a.dev/trabalho-iffar-html">Trabalho de escola: HTML</a></h6>
-    																																		</li>
-    																																		<li>    																																				    																																			        																								            																			       																													       																										  																																				
-        																												<input type="radio" id="slide2" name="slide">
-        																												<label for="slide2"></label>
-    																																						<img id="calcul" src="img/calculadora.jpg"/>
-    																																				<h6><a href="https://bru.is-a.dev/calculadora-html">Calculadora em HTML</a></h6>
-    																																		</li>
-																																						</ul>
+                	<li>
+                        <input type="radio" id="slide1" name="slide" checked>
+       					<label for="slide1"></label>
+                	    <img id="iffar" src="img/iffar-html.jpg"/>
+        				<h6><a href="https://bru.is-a.dev/trabalho-iffar-html">Trabalho de escola: HTML</a></h6>
+    				</li>
+    				<li>
+                        <input type="radio" id="slide2" name="slide">
+        				<label for="slide2"></label>
+    				    <img id="calcul" src="img/calculadora.jpg"/>
+    					<h6><a href="https://bru.is-a.dev/calculadora-html">Calculadora em HTML</a></h6>
+    				</li>
+				</ul>
             </div>
-																												<div class="col-sm-12">
+			<div class="col-sm-12">
                 <div class="row bar"></div>
+                <div id="notification" class="notification">Obrigado!, quando possível, retornarei sua mensagem :)</div>
                 <h3 class="text-center" id="contato">Contato</h3>
                 <div class="form_quad text-center">
                     <div class="row">
@@ -142,7 +123,7 @@
                                     <textarea name="Mensagem" required></textarea><br>
                                     <input type="hidden" name="_captcha" value="true" />
                                     <input type="hidden" name="_next" onclick="obrigado()" value="https://bru.is-a.dev/#contato?enviado=true"/>
-                                    <button type="submit" >Enviar</button>
+                                    <button type="submit" aria-label="Enviar formulário">Enviar</button>
                                 </form>
                             </div>
                         </div>
@@ -153,21 +134,9 @@
         <div class="text-center footer">
             <p>Feito Por Bruno Evaristo Pinheiro - 2024</p>
         </div>
-
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
-        window.onload = function() {
-            if (window.location.href.indexOf("?enviado=true") > -1) {
-                obrigado();
-            }
-        };
-
-        function obrigado() {
-            alert("Obrigado!, quando possível, retornarei sua mensagem :)");
-        };
-    </script>
-
+    <script src="javascript.js"></script>
 </body>
 </html>
